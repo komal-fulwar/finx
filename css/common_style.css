@@ -46,17 +46,20 @@ Version: 1.0
 
 ----*/
 :root {
-  --primary-color: #DCA92A;
-  --secondary-color: #FEF182 ;
-  --heading-color: #212529;
-  --primary-black-color: #000000;
-  --white-color: #ffffff;
-  --text-color: #000000;
-  --gray-color: #FAFAFF;
-  --border-color: #000000;
+  --primary-color: #ffffff; /* White */
+  --secondary-color: #FFD700; /* Deep Black for background */
+  --heading-color: #F5F5F5; /* Soft White for headings */
+  --primary-black-color: #000000; /* True Black */
+  --text-color: #000000; /* Light Gray for body text */
+  --gray-color: #222222; /* Dark Gray for sections */
+  --border-color: #ffffff; /* Medium Gray for soft borders */
+  --accent-color: #FFD700; /* Gold Accent for luxury effect */
+  --hover-color: #FF5A5F; /* Red Accent for interactive elements */
+  --subtle-blue: #446DF6; /* Cool Contrast for buttons, highlights */
   --heading-font: "SUSE", sans-serif;
   --body-font: "Outfit", sans-serif;
 }
+
 
 html {
   font-size: 100%;

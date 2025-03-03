@@ -12,7 +12,7 @@ Version: 1.0
 /* Hero Section */
 .hero-wrapper {
   position: relative;
-  background-color: #FCFCFF;
+  background-color: #000000;
   z-index: 1;
   padding-top: 50px;
 }
@@ -204,11 +204,11 @@ Version: 1.0
   top: -30px;
   right: -45px;
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .hero-wrapper .hero-content h1 span.c1 {
     display: none;
   }
-}
+} */
 .hero-wrapper .hero-content h1 span.c2 {
   color: var(--secondary-color);
 }
