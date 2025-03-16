@@ -46,14 +46,14 @@ Version: 1.0
 
 ----*/
 :root {
-  --primary-color: #ffffff; /* White */
-  --secondary-color: #FFD700; /* Deep Black for background */
-  --heading-color: #F5F5F5; /* Soft White for headings */
+  --primary-color: #000000; /* White */
+  --secondary-color: #7b72da; /* Deep Black for background */
+  --heading-color: #000000; /* Soft White for headings */
   --primary-black-color: #000000; /* True Black */
   --text-color: #000000; /* Light Gray for body text */
   --gray-color: #222222; /* Dark Gray for sections */
   --border-color: #ffffff; /* Medium Gray for soft borders */
-  --accent-color: #FFD700; /* Gold Accent for luxury effect */
+  --accent-color: #7b72da; /* Gold Accent for luxury effect */
   --hover-color: #FF5A5F; /* Red Accent for interactive elements */
   --subtle-blue: #446DF6; /* Cool Contrast for buttons, highlights */
   --heading-font: "SUSE", sans-serif;
@@ -305,7 +305,14 @@ label {
 .bg_cover {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 100% 100%;
+  background-position: 50% 50%;
+}
+
+
+.bg_fit {
+  background-repeat: no-repeat;
+ background: fixed;
+  background-position: 10% 10%;
 }
 
 .font-200 {
